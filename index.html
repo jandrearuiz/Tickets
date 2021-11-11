@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Boletería</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div class="form">
+        <h1>BOLETERIA</h1>
+        <label for="age">Ingrese la Edad</label>
+        <input type="number" name="age" id="age">
+        <label for="age">Cantidad de Boletas</label>
+        <input type="number" name="quantity" id="quantity">
+        <label for="code">Código Promocional</label>
+        <input type="text" name="code" id="code">
+        <button id="btn" type="button">Comprar</button>
+    </div>
+    <div>
+        <span>Tipo de Descuento: </span>
+        <span id="type-discount"></span>
+    </div>
+    <div>
+        <span>Subtotal: $</span>
+        <span id="subtotal"></span>
+    </div>
+    <div>
+        <span>Descuento por Porcentaje: $</span>
+        <span id="discount-percent"></span>
+    </div>
+    <div>
+        <span>Descuento por Código: $</span>
+        <span id="discount-code"></span>
+    </div>
+    <div>
+        <span>Total: $</span>
+        <span id="total"></spam>
+
+    </div>
+    <script src="./index.js" defer></script>
+</body>
+
+</html>

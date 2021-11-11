@@ -1,0 +1,23 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    height: 100vh;
+    margin: 0;
+    background: rgb(86, 86, 139);
+    font-family: sans-serif;
+    color: white;
+    text-align: center;
+}
+
+.form {
+    width: 20%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+#btn {
+    margin-top: 10px;
+}
